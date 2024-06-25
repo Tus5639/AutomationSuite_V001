@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="E2E Testing">
+	<listeners>
+		<listener class-name="automation_suite.BaseClass.TestListeners"></listener>
+	</listeners>
+	<test name="ExistingUser">
+		<classes>
+			<class name="automationSuite.TestCases.OrderProduct_existing_user">
+			</class>
+		</classes>
+	</test> 
+
+	
+</suite>

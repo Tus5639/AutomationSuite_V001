@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [E2E Testing]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="automation_suite.BaseClass.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="ExistingUser(failed)" verbose="0">
+    <classes>
+      <class name="automationSuite.TestCases.OrderProduct_existing_user">
+        <methods>
+          <include name="StartInitialisation"/>
+          <include name="close"/>
+          <include name="Purchase" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- automationSuite.TestCases.OrderProduct_existing_user -->
+    </classes>
+  </test> <!-- ExistingUser(failed) -->
+</suite> <!-- Failed suite [E2E Testing] -->

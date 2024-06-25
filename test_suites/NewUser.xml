@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeTesting">
+	<listeners>
+		<listener class-name="automation_suite.BaseClass.TestListeners"></listener>
+	</listeners>
+
+
+	
+
+
+	<test name="LoginValidation">
+		<classes>
+			<class name="automationSuite.TestCases.CreateNewAccountUser" />
+		</classes>
+	</test>
+	
+	<test  name="OrangeHRM Login">
+		<classes>
+			<class name="automationSuite.TestCases.OrderProduct_NewAccount" />
+		</classes>
+	</test>
+	
+	
+</suite>

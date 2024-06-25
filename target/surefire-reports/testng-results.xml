@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-22T13:25:59 IST" name="E2E Testing" finished-at="2024-06-22T13:29:05 IST" duration-ms="185445">
+    <groups>
+    </groups>
+    <test started-at="2024-06-22T13:25:59 IST" name="ExistingUser" finished-at="2024-06-22T13:29:05 IST" duration-ms="185445">
+      <class name="automationSuite.TestCases.OrderProduct_existing_user">
+        <test-method is-config="true" signature="StartInitialisation()[pri:0, instance:automationSuite.TestCases.OrderProduct_existing_user@ee86bcb]" started-at="2024-06-22T13:26:00 IST" name="StartInitialisation" finished-at="2024-06-22T13:26:22 IST" duration-ms="21451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInitialisation -->
+        <test-method signature="Purchase(java.util.HashMap)[pri:0, instance:automationSuite.TestCases.OrderProduct_existing_user@ee86bcb]" started-at="2024-06-22T13:26:22 IST" name="Purchase" description="Order Product using Existing Account" data-provider="data" finished-at="2024-06-22T13:27:10 IST" duration-ms="47673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Tushar1234, product=Montana Wind Jacket, size=M, Color=Green, Gender=Men, category=Jackets, email=AjayKumar@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:automationSuite.TestCases.OrderProduct_existing_user@ee86bcb]" started-at="2024-06-22T13:27:10 IST" name="close" finished-at="2024-06-22T13:27:12 IST" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="StartInitialisation()[pri:0, instance:automationSuite.TestCases.OrderProduct_existing_user@ee86bcb]" started-at="2024-06-22T13:27:12 IST" name="StartInitialisation" finished-at="2024-06-22T13:27:24 IST" duration-ms="12100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInitialisation -->
+        <test-method signature="Purchase(java.util.HashMap)[pri:0, instance:automationSuite.TestCases.OrderProduct_existing_user@ee86bcb]" started-at="2024-06-22T13:27:24 IST" name="Purchase" description="Order Product using Existing Account" data-provider="data" finished-at="2024-06-22T13:28:01 IST" duration-ms="36799" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Shraiya1234, product=Hollister Backyard Sweatshirt, size=M, Color=Green, Gender=Men, category=Hoodies & Sweatshirts, email=sh5639@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:automationSuite.TestCases.OrderProduct_existing_user@ee86bcb]" started-at="2024-06-22T13:28:01 IST" name="close" finished-at="2024-06-22T13:28:02 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="StartInitialisation()[pri:0, instance:automationSuite.TestCases.OrderProduct_existing_user@ee86bcb]" started-at="2024-06-22T13:28:02 IST" name="StartInitialisation" finished-at="2024-06-22T13:28:14 IST" duration-ms="12532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartInitialisation -->
+        <test-method signature="Purchase(java.util.HashMap)[pri:0, instance:automationSuite.TestCases.OrderProduct_existing_user@ee86bcb]" started-at="2024-06-22T13:28:14 IST" name="Purchase" description="Order Product using Existing Account" data-provider="data" finished-at="2024-06-22T13:29:03 IST" duration-ms="48747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Naurkir@1234, product=Rapha Sports Short, size=34, Color=Black, Gender=Men, category=Shorts, email=NiharSingh@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:automationSuite.TestCases.OrderProduct_existing_user@ee86bcb]" started-at="2024-06-22T13:29:03 IST" name="close" finished-at="2024-06-22T13:29:05 IST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- automationSuite.TestCases.OrderProduct_existing_user -->
+    </test> <!-- ExistingUser -->
+  </suite> <!-- E2E Testing -->
+</testng-results>
